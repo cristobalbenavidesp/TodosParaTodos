@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/TodosParaTodos/static/css/main.c5457cb2.css",
+    "main.js": "/TodosParaTodos/static/js/main.fa4fdbcd.js",
+    "static/js/787.f587e8d5.chunk.js": "/TodosParaTodos/static/js/787.f587e8d5.chunk.js",
+    "static/media/plan.pdf": "/TodosParaTodos/static/media/plan.f1742f20d72cea3ec073.pdf",
+    "static/media/seleccion_propuesta.svg": "/TodosParaTodos/static/media/seleccion_propuesta.836b29c93e1918996873b0c05a7b7d81.svg",
+    "static/media/fase_de_redaccion.svg": "/TodosParaTodos/static/media/fase_de_redaccion.7687c4bb56e5fd3a967a4bf1b3db0481.svg",
+    "static/media/revision_propuestas.svg": "/TodosParaTodos/static/media/revision_propuestas.0717fe93004c2e4e33d199e8bdb17a3e.svg",
+    "static/media/eliminacion_propuestas.svg": "/TodosParaTodos/static/media/eliminacion_propuestas.69d499c4c29aa85376201503b9ec9ee2.svg",
+    "index.html": "/TodosParaTodos/index.html",
+    "main.c5457cb2.css.map": "/TodosParaTodos/static/css/main.c5457cb2.css.map",
+    "main.fa4fdbcd.js.map": "/TodosParaTodos/static/js/main.fa4fdbcd.js.map",
+    "787.f587e8d5.chunk.js.map": "/TodosParaTodos/static/js/787.f587e8d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c5457cb2.css",
+    "static/js/main.fa4fdbcd.js"
+  ]
+}
