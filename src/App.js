@@ -1,24 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import AboutUs from "./components/AboutUs";
+import CrowdFoundingInfo from "./components/CrowdFoundingInfo";
+import FrontPage from "./components/FrontPage";
+import MockUps from "./components/MockUps";
+import { ModalContextProvider } from "./context/ModalContext";
+import { AppContextProvider } from "./context/AppContext";
+import Hr from "./components/Hr";
+import { AboutUsContextProvider } from "./context/AboutUsContext";
+import ContactPage from "./components/ContactPage";
+import { ContactContextProvider } from "./context/ContactContext";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <AppContextProvider>
+      <ModalContextProvider>
+        <div className="w-screen h-fit flex flex-col bg-red-900">
+          <FrontPage />
+          <Hr />
+          <AboutUsContextProvider>
+            <AboutUs />
+          </AboutUsContextProvider>
+          <Hr />
+          <MockUps />
+          <Hr />
+          <CrowdFoundingInfo />
+          <Hr />
+          <ContactContextProvider>
+            <ContactPage />
+          </ContactContextProvider>
+        </div>
+      </ModalContextProvider>
+    </AppContextProvider>
   );
 }
 
