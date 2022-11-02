@@ -48,7 +48,7 @@ function FrontPage(props) {
     7: {
       title: "Un mecanismo de discusión más flexible y familiar.",
       body: [
-        "Te ofrecemos un mecanismo asíncrono, lo cual pone fin a la dificultad de mantener a mucha gente reunida en simultáneo, permitiendo acceder al sitio en cualquier horario. Para muchos, los meedios digitales de comunicación ya son familiares, esto es por la eficiencia y comodidad que nos brindan a la hora de comunicarnos, es por esto que deberíamos llevar este confort a nuestras decisiones políticas.",
+        "Te ofrecemos un mecanismo asíncrono, lo cual pone fin a la dificultad de mantener a mucha gente reunida en simultáneo, permitiendo acceder al sitio en cualquier horario. Para muchos, los medios digitales de comunicación ya son familiares, esto es por la eficiencia y comodidad que nos brindan a la hora de comunicarnos, es por esto que deberíamos llevar este confort a nuestras decisiones políticas.",
       ],
     },
     8: {

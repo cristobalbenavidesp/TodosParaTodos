@@ -63,7 +63,7 @@ function AboutUs(props) {
           </section>
         </object>
       </div>
-      <section className="md:collapse flex place-content-center h-fit">
+      <section className="md:invisible flex place-content-center h-fit">
         <PDFButton />
       </section>
     </>

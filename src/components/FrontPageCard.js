@@ -37,7 +37,7 @@ function FrontPageCard() {
       </h2>
 
       <TextBlock>
-        Hacer de Chile un país representativo y verdaderamente democrático
+        Hacer de Chile un país representativo y verdaderamente democrático.
       </TextBlock>
 
       <h2 className="font-semibold text-2xl my-2 2xl:my-5 text-center sm:text-left">
