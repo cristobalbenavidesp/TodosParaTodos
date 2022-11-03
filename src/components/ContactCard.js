@@ -8,7 +8,7 @@ function ContactCard(props) {
       onClick={() => {
         setCopySuccess(props.contact);
       }}
-      className="px-2 max-w-xs xl:max-w-sm py-5 rounded-lg bg-slate-50 border-red-900 border-2 shadow-lg shadow-red-800/40 cursor-pointer hover:bg-slate-100 active:scale-95"
+      className="px-2 max-w-xs xl:max-w-sm py-5 rounded-lg bg-slate-50 border-red-900 active:border-blue-400 border-2 shadow-lg shadow-red-800/40 hover:shadow-red-700/50 cursor-pointer hover:bg-slate-100 active:scale-95 active:shadow-blue-400/40"
     >
       <section className="flex items-center place-content-center">
         {props.icon()}

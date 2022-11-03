@@ -29,7 +29,7 @@ function Carousel({ children }) {
     <div className="bg-gradient-to-tl relative h-full w-full flex place-content-center items-center from-red-900 via-red-700 to-red-900 overflow-auto">
       <ul
         id="slider"
-        className="aspect-w-video aspect-h-video w-[70%] h-[60%] rounded-lg overflow-hidden"
+        className="aspect-w-video aspect-h-video w-[70%] h-[50%] 2xl:h-[60%] rounded-lg overflow-hidden"
       >
         {Children.toArray(children).map((slide, index) => {
           if (currentSlideId === index + 1) {

@@ -7,9 +7,9 @@ function FrontPageInfo({ data, quotes, children }) {
 
     if (paragraphs === 1) {
       return quotes ? (
-        <abbr className="text-xs lg:text-md 2xl:text-xl indent-5 break-words whitespace-pre-line overflow-y-clip">
-          {body[0]}
-        </abbr>
+        <h2 className="text-xs lg:text-md 2xl:text-xl indent-5 break-words whitespace-pre-line overflow-y-clip">
+          &rdquo;{body[0]}&rdquo;
+        </h2>
       ) : (
         <h2 className="text-xs lg:text-md 2xl:text-xl indent-5 break-words whitespace-pre-line overflow-y-clip">
           {body[0]}

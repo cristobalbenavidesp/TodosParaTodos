@@ -46,7 +46,7 @@ function CrowdFoundingInfo(props) {
   return (
     <div
       ref={requirements}
-      className="relative flex flex-col h-fit md:h-screen w-fit md:w-screen bg-gradient-to-r overflow-hidden from-orange-800 via-red-800 to-red-900"
+      className="relative flex flex-col h-fit md:h-screen w-full bg-gradient-to-r overflow-hidden rounded-t-lg pb-5 from-orange-800 via-red-800 to-red-900"
     >
       <PopUp>
         <div className="flex flex-col relative p-10 z-10 w-fit mx-5 md:mx-0 md:w-[50vw] h-fit md:h-[60vh] bg-slate-100 items-center place-content-center rounded-lg">
@@ -58,11 +58,12 @@ function CrowdFoundingInfo(props) {
           </h2>
         </div>
       </PopUp>
-      <h1 className="relative text-4xl text-center w-full font-bold text-white mt-14">
+
+      <h1 className="relative text-4xl md:text-2xl lg:text-4xl text-center w-full font-bold text-white mt-14 md:mt-5 lg:mt-14">
         Requerimientos
       </h1>
-      <section className=" relative flex flex-col items-center place-content-center h-full w-full">
-        <div className="relative grid grid-cols-2 md:grid-cols-3 gap-10 md:gap-20 scale-75 lg:scale-50">
+      <section className="relative flex flex-col items-center place-content-center h-full w-full ">
+        <div className="relative grid grid-cols-2 md:grid-cols-3 gap-10 md:gap-20 scale-75 md:scale-[45%] lg:scale-50">
           <ConceptCard
             onClick={() => effect(data.financiation)}
             src="https://cdn.pixabay.com/photo/2016/06/13/15/07/presentation-1454403_960_720.png"

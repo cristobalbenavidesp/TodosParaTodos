@@ -34,6 +34,7 @@ module.exports = {
       16: "16",
     },
   },
+
   variants: {
     aspectRatio: ["responsive", "hover"],
   },

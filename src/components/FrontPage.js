@@ -63,11 +63,11 @@ function FrontPage(props) {
   const { home } = refs;
 
   return (
-    <div ref={home} className="sm:relative h-fit lg:h-screen">
+    <div ref={home} className="w-full lg:relative h-fit lg:h-screen">
       <NavBar />
-      <div className="flex flex-col md:flex-row md:relative h-fit md:h-screen w-screen bg-estallido">
+      <div className="flex flex-col lg:flex-row lg:relative h-fit lg:h-screen w-full bg-estallido">
         <FrontPageCard />
-        <div className="hidden md:flex h-full w-full place-content-center items-center">
+        <div className="hidden lg:flex h-full w-full place-content-center items-center">
           <Carousel>
             <CarouselItemTemplate data={slides[1]}>
               <img

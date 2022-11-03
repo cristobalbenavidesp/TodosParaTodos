@@ -3,12 +3,12 @@ import TextBlock from "./TextBlock";
 
 function FrontPageCard() {
   return (
-    <div className="h-fit lg:h-screen pb-20 px-5 sm:px-14 pt-5 xl:pt-3 2xl:pt-10 w-full md:w-[80%] 2xl:w-full max-w-full md:max-w-2xl bg-red-900 bg-opacity-80 text-white overflow-y-hidden">
-      <h1 className="text-9xl md:text-8xl 2xl:text-9xl text-center sm:text-left font-extrabold h-fit">
+    <div className="h-fit lg:h-screen w-full lg:max-w-2xl pb-10 px-5 sm:px-14 pt-5 xl:pt-3 2xl:pt-10  bg-red-900 bg-opacity-80 text-white">
+      <h1 className="text-9xl md:text-8xl 2xl:text-9xl text-center lg:text-left font-extrabold h-fit">
         T.P.T
       </h1>
-      <hr className="mb-5 md:mb-3 2xl:mb-5 relative" />
-      <h2 className="font-semibold text-2xl my-2 2xl:my-5 text-center sm:text-left">
+      <hr className="mb-10 mt-1 relative" />
+      <h2 className="font-semibold text-2xl my-5 text-center lg:text-left">
         ¿Quiénes somos?
       </h2>
       {/* prettier-ignore*/}
@@ -23,7 +23,7 @@ function FrontPageCard() {
         <li className="list-item">Fase de redacción</li>
       </ul>
 
-      <h2 className="font-semibold text-lg sm:text-2xl my-2 2xl:my-5 text-center sm:text-left">
+      <h2 className="font-semibold text-2xl my-5 text-center lg:text-left">
         Misión
       </h2>
 
@@ -32,7 +32,7 @@ function FrontPageCard() {
         constituyente que tome en cuenta la opinión de todos los ciudadanos.
       </TextBlock>
 
-      <h2 className="font-semibold text-2xl my-2 2xl:my-5 text-center sm:text-left">
+      <h2 className="font-semibold text-2xl my-5 text-center lg:text-left">
         Visión
       </h2>
 
@@ -40,7 +40,7 @@ function FrontPageCard() {
         Hacer de Chile un país representativo y verdaderamente democrático.
       </TextBlock>
 
-      <h2 className="font-semibold text-2xl my-2 2xl:my-5 text-center sm:text-left">
+      <h2 className="font-semibold text-2xl my-5 text-center lg:text-left">
         Objetivo
       </h2>
       <TextBlock>

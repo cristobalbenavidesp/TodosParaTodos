@@ -13,7 +13,7 @@ function MockUps(props) {
   return (
     <div
       ref={diagrams}
-      className="flex flex-col items-center place-content-center h-screen sm:h-screen px-4 sm:px-10 bg-gradient-to-b from-red-900 to-orange-800"
+      className="absolute flex flex-col items-center place-content-center w-full h-screen px-4 md:px-10 bg-gradient-to-b rounded-t-lg from-red-900 to-orange-800"
     >
       <h1 className="text-4xl font-bold p-4 xl:py-10 text-white">
         Procesos BPMN
