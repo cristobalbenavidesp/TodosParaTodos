@@ -9,6 +9,7 @@ import { AboutUsContextProvider } from "./context/AboutUsContext";
 import ContactPage from "./components/ContactPage";
 import { ContactContextProvider } from "./context/ContactContext";
 import ViewPagerView from "./components/ViewPagerView";
+import { ViewPagerContextProvider } from "./context/ViewPagerContext";
 
 function App() {
   const slides = [
@@ -98,7 +99,9 @@ function App() {
         <div className="w-full h-fit flex flex-col place-content-center bg-red-900">
           <FrontPage />
           <section className="relative w-full h-screen flex lg:hidden ">
-            <ViewPagerView slides={slides} />
+            <ViewPagerContextProvider>
+              <ViewPagerView slides={slides} />
+            </ViewPagerContextProvider>
           </section>
           <AboutUsContextProvider>
             <AboutUs />
